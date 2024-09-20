@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image" href="./img/sakura_logo.png">
+    <link rel="stylesheet" href="style.css?v=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Ramen</title>
+</head>
+<body class="MyBody">
+    
+<div class="main-container">
+
+<div class="main-container-top">
+<img class="logo_menu_bar" src="./img/sakura_logo.png" alt="">
+<div class="menu_bar_Telefon">
+<div class="menu_bar">
+
+
+<a href="#menu_card_container">MENU</a>
+
+
+
+
+<a href="#location">LOCATION</a>
+<a href="#footer">ABOUT</a>
+</div>
+<a onclick="window.location.href='tel:017654564534'" class="Telefon">
+ <!-- <img class="Telefon_icon" src="./img/phone.png" alt="Telefon Icon"> -->
+   0176 54564534</a>
+</div>
+
+</div>
+<h1>SAKURA RAMEN</h1>
+<h2 class="subtitle">THE BEST RAMEN IN TOWN</h2>
+
+</div>
+
+<div class="how_to_order">
+<h2>HOW TO ORDER</h2>
+
+<div class="order_options">
+<div class="order_options_position">
+    <img src="./img/broth.png" alt="">
+    <p>Pick your <br> noodle</p>
+</div>
+<div class="order_options_position">
+    <img src="./img/egg.png" alt="">
+    <p>Pick your <br>broth</p>
+</div>
+<div class="order_options_position">
+    <img src="./img/noodle.png" alt="">
+    <p>Add your<br>toppings</p>
+</div>
+</div>
+</div>
+
+
+<div class="menu_card_container">
+<div class="menu_card">
+
+  <h2 id="menu_card_container">OUR MENU</h2>
+
+<div class="dish_Tonkotsu_Ramen">
+    <img class="menu_card_images" src="./img/R1.png" alt="">
+    <table>
+      
+
+        <tr>
+            <th>Tonkotsu Ramen</th>
+        </tr>
+        <tr>
+          <td>CHICKEN</td>
+          <td>11,95</td>
+        </tr>
+        <tr>
+          <td>BEEF</td>
+          <td>12,95</td>
+        </tr>
+        <tr>
+          <td>SHRIMP</td>
+          <td>13,95</td>
+        </tr>
+      </table>
+</div>
+
+<div class="dish_Spicy_Miso_Ramen">
+
+    <table>
+      
+
+        <tr>
+            <th>Spicy Miso Ramen</th>
+        </tr>
+        <tr>
+          <td>CHICKEN</td>
+          <td>11,95</td>
+        </tr>
+        <tr>
+          <td>BEEF</td>
+          <td>12,95</td>
+        </tr>
+        <tr>
+          <td>SHRIMP</td>
+          <td>13,95</td>
+        </tr>
+      </table>
+      <img class="menu_card_images" src="./img/R2.png" alt="">
+
+</div>
+
+<div class="dish_Shio_Ramen">
+    <img class="menu_card_images" src="./img/R3.png" alt="">
+
+    <table>
+    <tr>
+        <th>Shio Ramen</th>
+    </tr>
+    <tr>
+      <td>CHICKEN</td>
+      <td>11,95</td>
+    </tr>
+    <tr>
+      <td>BEEF</td>
+      <td>12,95</td>
+    </tr>
+    <tr>
+      <td>SHRIMP</td>
+      <td>13,95</td>
+    </tr>
+  </table>
+</div>
+
+</div>
+</div>
+
+<h2></h2>
+<h2></h2>
+
+
+<div id="location" class="google_maps">
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2081532576303!2d11.558628377662263!3d48.12550907124217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1722791637401!5m2!1sde!2sde"></iframe>
+</div>
+
+
+
+<footer id="footer" class="footer" >
+
+    <img src="" alt="">
+    <h2></h2>
+
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+</footer>
+
+
+
+<script>
+  // Funktion, die das sanfte Scrollen für alle Links zu Ankerpunkten ermöglicht
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(event) {
+          event.preventDefault(); // Verhindert das Standardverhalten des Anker-Links
+
+          const targetElement = document.querySelector(this.getAttribute('href'));
+          if (targetElement) {
+              const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+
+              window.scrollTo({
+                  top: targetPosition,
+                  behavior: 'smooth' // Sanftes Scrollen
+              });
+          }
+      });
+  });
+</script>
+  
+</body>
+</html>

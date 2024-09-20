@@ -1,0 +1,502 @@
+.MyBody{
+    margin:0;
+    padding: 0;
+}
+.main-container {
+    height:100vh;
+    background-image:url('./img/hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    margin:0 auto;
+}
+.Telefon_icon {
+    width: 24px;
+    margin-bottom:-6px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 0;
+    padding-top:100px;
+    white-space: nowrap;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    white-space: nowrap;
+}
+
+.subtitle {
+    margin-top:0;
+    
+ 
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.main-container-top {
+display: flex;
+justify-content: space-between;
+padding: 24px 100px;
+align-items: center;
+flex-wrap: nowrap;
+}
+
+.logo_menu_bar{
+    width:64px;
+    height:64px;
+}
+
+.Telefon {
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu_bar {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.menu_bar a {
+margin: 10px;
+border: 2px solid rgba(255, 0, 0, 0);
+font-family: 'Raleway', sans-serif;
+padding: 10px;
+border-radius: 10px;
+/*border-width:1000px 20px 10px 1 px;*/
+font-size:24px;
+color: white;
+text-decoration:none;
+}
+
+.Telefon:hover{
+    cursor: pointer;
+    background-color:#c52525 ;
+}
+
+.Telefon {
+    
+    
+        border: 2px solid white;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5px;
+        
+        font-size:24px;
+        color: white;
+        background-color:#9F0908 ;
+        padding:4px 8px 8px 8px;
+        white-space: nowrap;
+        
+}
+
+.menu_bar_Telefon {
+    display: flex;
+    align-items: center;
+}
+
+.menu_bar a:hover {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.how_to_order {
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.how_to_order h2 {
+color:#9F0908;
+font-size: 80px;
+font-weight: bold;
+}
+
+.order_options {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.order_options_position {
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    max-width: 250px;
+}
+
+.order_options_position p {
+    white-space: nowrap;
+}
+
+.how_to_order img{
+    width:128px;
+
+}
+.how_to_order p {
+color:black;
+text-align:center;
+font-size:56px;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+}
+
+.menu_card_container {
+    margin:0 auto;
+    background-image: url('./img/section_our_menu_bg.jpg') ;
+    
+    
+}
+
+.menu_card {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 60px;
+    position:relative;
+}
+
+.menu_card td {
+    font-family: 'Raleway';
+    font-weight:bold;
+    font-size: 32px;
+    margin-left: 80px;
+    color: rgba(0, 0, 0, 0.6);
+    white-space: nowrap;
+}
+.menu_card th {
+    font-family: 'Euconomia';
+    font-weight: bold;
+    font-size: 56px;
+    white-space: nowrap;
+}
+
+.menu_card h2 {
+    text-align: center;
+    color:#9F0908;
+    font-family: 'Raleway', sans-serif;
+    font-size:80px ;
+}
+.dish_Tonkotsu_Ramen {
+    display: flex;
+}
+
+.dish_Spicy_Miso_Ramen {
+    margin-left:0;
+    display: flex;
+    padding-left:300px;
+
+}
+
+.dish_Shio_Ramen {
+    display: flex;
+}
+
+.menu_card_images {
+    width: 352px;
+    height: 352px;
+}
+
+.google_maps {
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 100%; 
+    height: 500px; 
+}
+
+.google_maps iframe {
+    width: 100%; /* Die Breite des iframes an die Breite des Containers anpassen */
+    height: 100%; /* Die Höhe des iframes an die Höhe des Containers anpassen */
+    border: 0; /* Entfernt den Rand des iframes */
+}
+
+
+/*
+.container-main {
+    
+    height:100vh;
+
+    background-image:url('./Sakura Ramen Webseite - Desktop/assets/img/1_hero/JPG/hero_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:1440px;
+    background-position: center;
+    width:100%;
+    margin:0 auto;
+
+}
+
+#sakura_logo {
+max-width:64px;
+max-height:64px;
+}
+
+.menu_bar {
+    
+    
+
+}
+
+.container-main-menu {
+    margin-left: 100px;
+    display:flex;
+    justify-content: space-between;
+    max-width:1440px;
+    padding:50px;
+    white-space: nowrap;
+    
+
+}
+
+.menu_bar a {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius:10px;
+    padding: 10px;
+    margin:32;
+    font-weight:regular;
+    font-size:24px;
+    text-decoration: none; 
+    color:white;
+}
+
+.menu_bar a:hover {
+    color:blue;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+.myBody {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+
+
+}
+
+.Telefon {
+    
+    
+    margin-right: 100px;
+    border:2px solid white;
+    border-color: white;
+    border-radius:10px;
+    background-color: rgb(156, 0, 0);
+    padding:10px;
+    font-size:24px;
+    color:white;
+
+}
+
+.Telefon input[type="image"] {
+margin-bottom:-3px;
+
+  }
+
+
+h1 {
+    margin-top:200px;
+    margin-bottom:0;
+    color:white;
+    font-size:96px;
+    font-weight: bold;
+    max-width: 1440px;
+   
+}
+
+h2 {
+
+
+    color:white;
+    font-size:24px;
+    font-weight: regular;
+    max-width: 1440px;
+    
+}
+
+h1, h2 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    flex-shrink: 0;
+    white-space: nowrap;
+
+}
+
+#ORDER {
+    margin-top:120px;
+    margin-bottom:64px;
+    display:flex;
+    justify-content:center;
+    font-size:80px;
+    font-weight:bold;
+    color:#9F0908;
+}
+
+#adress {
+    text-align: center;
+    font-size:24px;
+    color: black;
+}
+
+#FIND_US_AT {
+    margin-top:120px;
+    margin-bottom:64px;
+    display:flex;
+    justify-content:center;
+    font-size:80px;
+    font-weight:bold;
+    color:#9F0908;
+}
+
+.container-2 {
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    max-width:1100px;
+}
+.container-2 p {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+.noodle {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+
+.broth {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+
+.toppings {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+
+#menu_card_title {
+    padding-top: 0;
+    margin-bottom: 64px;
+    display:flex;
+    justify-content:center;
+    font-size:80px;
+    font-weight:bold;
+    color:#9F0908;
+}
+
+
+
+
+
+.container-our_menu {
+position:relative;
+height:100vh;
+margin:10px;
+background-image: url('./Sakura Ramen Webseite - Desktop/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg') ;
+background-size: cover;
+background-repeat: no-repeat;
+max-width:1440px;
+background-position: center;
+width:100%;
+margin:0 auto;
+}
+
+.container_Tonkotsu_Ramen, .container_Shio_Ramen {
+    display:flex;
+    justify-content: left;
+    max-width: 1440px;
+    margin-left: 120px;
+}
+
+.container_Spicy_Miso_Ramen {
+    display: flex;
+    justify-content: right;
+    max-width: 1440px;
+    margin-right:120px;
+}
+
+.container_Shio_Ramen {
+    padding-bottom: 120px;
+}
+
+
+ td {
+    font-family: 'Raleway';
+    font-weight:bold;
+    font-size: 32px;
+    margin-left: 80px;
+    color: rgba(0, 0, 0, 0.6);
+}
+th {
+    font-family: 'Euconomia';
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.container_Tonkotsu_Ramen {
+    display: flex;
+ margin-top: 64px;
+
+    
+}
+
+.container_Tonkotsu_Ramen img {
+    margin-right: 20px; 
+}
+
+
+
+
+.container_Spicy_Miso_Ramen {
+    display: flex;
+    margin-top: 64px;
+    
+}
+
+.container_Spicy_Miso_Ramen img {
+    margin-right: 20px; 
+}
+
+
+
+
+.container_Shio_Ramen {
+    display: flex;
+    margin-bottom: 64px;
+    
+}
+
+.container_Shio_Ramen img {
+    margin-right: 20px; 
+}
+
+
+#google_maps {
+margin-left: 120px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 120px;
+    width:100%;
+    max-width: 1440px;
+}
+    */
+    
